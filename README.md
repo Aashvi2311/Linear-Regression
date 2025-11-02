@@ -6,4 +6,7 @@ To validate the implementation, the custom model’s performance is compared wit
 
 The graphs show that predictions from both models are almost identical, with very minimal deviation, confirming the accuracy of the scratch implementation.<br>
 
+![Model Comparison](graph.png)
+The red line represents the predictions from the custom Linear Regression model, while the green line shows the predictions from scikit-learn’s LinearRegression.Both lines closely overlap, indicating that the scratch implementation performs almost identically to the scikit-learn model.
+
 
